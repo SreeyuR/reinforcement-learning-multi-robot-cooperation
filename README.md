@@ -1,2 +1,7 @@
-# reinforcement-learning-multi-robot-cooperation
-Research whether robots can cooperate to accomplish a series of complex tasks using deep reinforcement learning.
+# Multi-Robot Cooperation to Accomplish a Sequence of Tasks Using Deep Reinforcement Learning
+
+Many real-world problems mandate teamwork, where multi-robot systems accomplish complex tasks through cooperation and decomposition. We study whether robots can learn cooperation to accomplish a sequence of complex tasks in a simulated environment inspired by a factory warehouse. A deep reinforcement learning approach, particularly Q-Learning and a multi-layered neural network, is used for the multi-agent system. The specific task the robots learn is to find bulky artifacts and move them to their destination, which requires cooperation in pairs. Our prior experiments reveal robots can learn to cooperate to perform complex tasks, but the scalability of this approach is limited in terms of the number of robots and tasks, and training time efficiency. The previous approach allocated artifacts to robots prior to training. In our novel approach, however, robots must learn to allocate subtasks themselves to move artifacts not specifically assigned to them. Methods include introducing explicit and implicit forms of communication, which is important for ad-hoc teamwork. We use robot simulations to empirically analyze how well the robots complete the sequence of tasks and evaluate the performance of various approaches through success rates, computing time, scalability, and generalizability.
+
+To access the project, go to: https://github.umn.edu/khan0096/Warehouse/edit/master/readme.md
+
+Associated Paper (outdated 2021, new paper in-progress): https://www-users.cse.umn.edu/~gini/publications/papers/Khan2021arms.pdf
